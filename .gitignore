@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python-specific logs
+*.log
+
+# Data files
+data/*.csv
+!data/movies.csv  # Keep specific files if necessary
+!data/ratings.csv
+!data/genre_features.csv
+
+# Machine learning model outputs
+*.h5
+*.ckpt
+*.joblib
+*.pkl
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Deployment artifacts
+*.env
+*.key
+*.pem
+
+# Node.js modules (if used for frontend)
+node_modules/
+
+# Streamlit cache (if using Streamlit)
+.streamlit/
+
+# Flask instance files
+instance/
+
+# Sensitive files
+*.env          # Environment variables
+credentials/   # Any folder for API keys or sensitive information
